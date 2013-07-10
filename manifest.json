@@ -1,0 +1,11 @@
+{
+  "name": "EchoDigClient",
+  "description": "EchoDigClient.",
+  "version": "1",
+  "app": {
+    "background": {
+      "scripts": ["js/launch.js"]
+    }
+  },
+  "permissions": [ "webview", { "socket" : ["tcp-connect"] }, "experimental"  ]
+}
